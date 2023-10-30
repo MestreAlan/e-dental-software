@@ -1,0 +1,10 @@
+:root {
+  --geral-cor-verde-escuro: #198754;
+  --geral-cor-verde-escuro-alpha-0-5: rgba(25, 135, 84, 0.5);
+  --geral-cor-verde-claro: #0fbdc4;
+  --geral-cor-verde-claro-alpha-0-5: rgba(15, 189, 196, 0.5);
+  --geral-cor-roxo-claro: #9c50ff;
+  --geral-cor-roxo-claro-alpha-0-5: rgba(156, 80, 255, 0.5);
+  --geral-cor-roxo-escuro: #6d38b3;
+  --geral-cor-roxo-escuro-alpha-0-5: rgba(109, 56, 179, 0.5);
+}

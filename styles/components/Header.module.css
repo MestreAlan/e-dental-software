@@ -1,0 +1,28 @@
+.naveBarHorizontal {
+  border: 2px solid var(--geral-cor-roxo-escuro-alpha-0-5);
+  padding: 0px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px 0px var(--geral-cor-roxo-claro-alpha-0-5);
+}
+
+.text-right {
+  display: flex;
+  align-items: center;
+}
+
+.mobileMenu {
+  position: absolute;
+  top: 100%; /* Posiciona abaixo do botão */
+  left: 0; /* Alinhado à esquerda */
+  width: 100%; /* Largura total */
+  background-color: #000; /* Cor de fundo desejada */
+  display: none; /* Inicialmente escondido */
+  /* Outros estilos que você desejar */
+}
+
+/* Quando o menu estiver expandido, você pode mostrar ele definindo "display: block" */
+.mobileMenu.show {
+  display: block;
+}
+
