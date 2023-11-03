@@ -10,9 +10,7 @@ const Sidebar = () => {
 
   return (
     <div className={`d-flex flex-column flex-shrink-0 p-3 text-white bg-dark sidebar ${expanded ? 'expanded' : 'collapsed'}`}>
-      <button onClick={toggleSidebar} className="toggle-button">
-        {expanded ? <FaChevronLeft /> : <FaChevronRight />}
-      </button>
+
 
       <ul className="side-nav">
         <li className="side-nav-title side-nav-item">Painel principal</li>
@@ -50,6 +48,9 @@ const Sidebar = () => {
         </li>
         {/* Adicione mais itens conforme necessário */}
       </ul>
+      <button onClick={toggleSidebar} className="toggle-button">
+        {expanded ? <FaChevronLeft /> : <FaChevronRight />}
+      </button>
     </div>
   );
 };
