@@ -36,7 +36,7 @@
 }
 
 .btnExpand {
-  background: url("../../public/images/ceta2.png") no-repeat; /* Caminho para a imagem a partir da pasta public */
+  background: url("../../public/images/ceta3.png") no-repeat; /* Caminho para a imagem a partir da pasta public */
   background-size: 100% 100%; /* A imagem ocupará toda a área da div */
   /* Adicione outras propriedades de estilo conforme necessário */
   width: 100%;

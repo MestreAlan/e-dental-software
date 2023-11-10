@@ -1,0 +1,50 @@
+/* styles/components/Corpo.module.css */
+.containerPrincipal {
+  display: flex;
+  align-items: stretch;
+  min-height: 20px; /* Defina a altura mínima */
+}
+
+.menu {
+  background-color: #fff; /* Cor da div esquerda */
+  flex: 100%;
+  margin: -20px 20px 0px 20px;
+  border: 2px solid var(--geral-cor-roxo-escuro-alpha-0-5);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 2px 2px 0px 0px var(--geral-cor-roxo-claro-alpha-0-5);
+
+}
+
+/* Estilo para o botão */
+.botao_menu_superior {
+  background: none;
+  border: none;
+  margin: 10px;
+  color: var(--geral-cor-roxo-escuro); /* Cor do texto roxo */
+  text-decoration: none; /* Remover o sublinhado padrão */
+  cursor: pointer;
+  position: relative; /* Define a posição relativa para elementos filhos */
+}
+
+/* Estilo para a luz saindo de baixo para cima */
+.botao_menu_superior::before {
+  content: ""; /* Cria um elemento pseudo antes do texto */
+  position: absolute;
+  bottom: 0; /* Iniciar a partir do fundo */
+  margin: 20px 20px -10px 0px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(to bottom, transparent, var(--geral-cor-roxo-claro)); /* Gradiente de transparente para roxo */
+  opacity: 0; /* Inicialmente invisível */
+  transition: height 0.3s, opacity 0.3s; /* Adicionar uma transição suave */
+}
+
+/* Estilo para ativar o efeito quando o botão estiver hover ou focado */
+.botao_menu_superior:hover::before,
+.botao_menu_superior:focus::before,
+.botao_menu_superior:active::before,
+.botao_menu_superior.active::before {
+  height: 30%; /* Definir a altura da luz saindo de baixo para cima */
+  opacity: 1; /* Tornar visível */
+}

@@ -1,24 +1,23 @@
 .barHorizontal {
   border: 2px solid var(--geral-cor-roxo-escuro-alpha-0-5);
   padding: 0px;
-  margin: 20px;
-  border-radius: 10px;
+  margin: 20px 0px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   box-shadow: 2px 2px 0px 0px var(--geral-cor-roxo-claro-alpha-0-5);
   background-color: #000;
   color: #fff
 }
 
-.text-right {
-  display: flex;
-  align-items: center;
-}
-
 .span {
   font-size: 15px;
-  margin-top: 20px;
 }
 
 .redes_sociais {
-  margin-left: 30%;
-  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Adicione margem à direita da primeira imagem */
+.redes_sociais a:first-child {
+  margin-right: 10px; /* Ajuste conforme necessário */
 }

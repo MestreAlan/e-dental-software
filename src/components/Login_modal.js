@@ -1,6 +1,6 @@
 // components/ModalLogin.js
 import React from 'react';
-import styles from '../../styles/components/Login.module.css';
+import styles from '../../styles/components/Login_modal.module.css';
 
 const ModalLogin = ({ closeModal }) => {
   const handleModalClick = (e) => {

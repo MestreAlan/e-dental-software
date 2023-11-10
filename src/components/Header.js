@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
-import ModalLogin from '../components/Login';
+import ModalLogin from './Login_modal';
 import styles from '../../styles/components/Header.module.css';
 
 const Header = () => {
@@ -114,12 +114,11 @@ const Header = () => {
         <div className="container">
           <a className="navbar-brand" href="#">
             <Image
-              src="/images/logo.png"
+              src="/clientes/orofacial.png"
               alt="Logo"
-              width={70}
+              width={230}
               height={70}
             />
-            <span className={`span ${styles.span}`}>E-Odonto-Software</span>
           </a>
 
           {!isMobile ? (

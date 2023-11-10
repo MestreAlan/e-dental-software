@@ -1,8 +1,8 @@
 .naveBarHorizontal {
   border: 2px solid var(--geral-cor-roxo-escuro-alpha-0-5);
   padding: 0px;
-  margin: 20px;
-  border-radius: 10px;
+  margin: 0px 0px 20px 0px;
+  border-radius: 0px 0px 10px 10px;
   box-shadow: 2px 2px 0px 0px var(--geral-cor-roxo-claro-alpha-0-5);
 }
 
